@@ -1,0 +1,6 @@
+RIGHT_BODY_TEXT = "right_body_text"
+LEFT_BODY_TEXT = "left_body_text"
+CENTER_BODY_TEXT = "center_body_text"
+RIGHT_HEADER_TEXT = "right_header_text"
+LEFT_HEADER_TEXT = "left_header_text"
+CENTER_HEADER_TEXT = "center_header_text"
