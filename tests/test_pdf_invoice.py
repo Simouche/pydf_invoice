@@ -3,8 +3,8 @@ import unittest
 
 from reportlab.lib import colors
 
-from src.models import ClientInfo, Item, InvoiceInfo, CompanyInfo
-from src.pdf_invoice import PDFInvoice
+from src.pydf_invoice.models import ClientInfo, Item, InvoiceInfo, CompanyInfo
+from src.pydf_invoice.pdf_invoice import PDFInvoice
 
 
 class TestPDFInvoice(unittest.TestCase):
