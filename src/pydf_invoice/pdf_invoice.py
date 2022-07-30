@@ -8,9 +8,9 @@ from reportlab.lib.units import inch
 from reportlab.pdfgen.canvas import Canvas
 from reportlab.platypus import SimpleDocTemplate, Image, Paragraph, TableStyle, Table, Spacer
 
-from .models import ClientInfo, InvoiceInfo, CompanyInfo
-from enums import CENTER_BODY_TEXT, RIGHT_BODY_TEXT, LEFT_BODY_TEXT, RIGHT_HEADER_TEXT, LEFT_HEADER_TEXT, \
+from .enums import CENTER_BODY_TEXT, RIGHT_BODY_TEXT, LEFT_BODY_TEXT, RIGHT_HEADER_TEXT, LEFT_HEADER_TEXT, \
     CENTER_HEADER_TEXT
+from .models import ClientInfo, InvoiceInfo, CompanyInfo
 
 
 class PDFInvoice:
