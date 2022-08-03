@@ -15,7 +15,7 @@ disclaimer: some features were inspired from py_invoice.
 Install directly from PyPi.
 
 ```
-$ pip install pydf_invoice
+$ pip install pydf-invoice
 $ pip install reportlab==3.6.11
 ```
 
